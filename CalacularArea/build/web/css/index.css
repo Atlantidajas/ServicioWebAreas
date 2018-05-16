@@ -1,0 +1,55 @@
+
+
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+
+}
+h1{
+ 
+    text-align: center;
+    color: blue;
+}
+
+form {
+    color: blueviolet;
+    background-color: beige;
+    border: solid 4px cornflowerblue;
+    display: block;
+    margin: auto;
+    position: relative;
+
+}
+
+select{
+    font-size: 1em;
+    display: block;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+
+}
+input{
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+input.enviar{
+    position: relative;
+    margin: auto;
+    color: white;
+    background-color: darkblue;
+    height: 30px;
+    width: 100%;
+}

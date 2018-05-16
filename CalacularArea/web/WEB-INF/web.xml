@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>RecogerDatos</servlet-name>
+        <servlet-class>com.CalcularArea.RecogerDatos</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RecogerDatosTriangulo</servlet-name>
+        <servlet-class>com.CalcularArea.RecogerDatosTriangulo</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RecogerDatosCuadrado</servlet-name>
+        <servlet-class>com.CalcularArea.RecogerDatosCuadrado</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RecogerDatos</servlet-name>
+        <url-pattern>/RecogerDatos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RecogerDatosTriangulo</servlet-name>
+        <url-pattern>/RecogerDatosTriangulo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RecogerDatosCuadrado</servlet-name>
+        <url-pattern>/RecogerDatosCuadrado</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
